@@ -23,7 +23,7 @@ int main() {
 		cout<<"The Albhabet is a Vowel";
 		break;
 		default:
-		cout<<"The Alphabet is a Constant";
+		cout<<"The Alphabet is a Consonant";
 	}
 	return 0;
 }
