@@ -9,11 +9,11 @@ int main() {
 	a=int(ch);
 	if((a<41)||(a>90)&&(a<97)||(a>122))
 	{
-		cout<<"ALPHABET";
+		cout<<"NO";
 	}
 	else 
 	{
-		cout<<"NO";
+		cout<<"ALPHABET";
 	}
 	return 0;
 }
