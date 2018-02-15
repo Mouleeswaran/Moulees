@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int n,k,i,j,sum=0;
+	int n,k,i,sum=0;
 	cout<<"Enter two numbers\n";
 	cin>>n>>k;
 	int*arr=new int[n];
@@ -12,9 +12,9 @@ int main() {
 		cin>>arr[i];
 		cout<<arr[i];
 	}
-	for(j=0;j<k;j++)
+	for(i=0;i<k;i++)
 	{
-		sum=sum+arr[j];
+		sum=sum+arr[i];
 	}
 	cout<<"\n"<<sum;
 	return 0;
