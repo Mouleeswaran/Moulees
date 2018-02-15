@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int n,great=0,i;
+	int n,great,i;
 	cout<<"Enter value of n\n";
 	cin>>n;
 	int*arr=new int[n];
@@ -11,6 +11,7 @@ int main() {
 	{
 		cin>>arr[i];
 	}
+	great=arr[0];
 	for(i=0;i<n;i++)
 	{
 		if(arr[i]>great)
