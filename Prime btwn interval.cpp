@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int num1,num2,i,count;
-	cout<<"Enter two numbers";
+	cout<<"Enter two numbers\n";
 	cin>>num1>>num2;
 	while(num1<num2)
 	{
@@ -16,10 +16,10 @@ int main() {
 			}
 		}
 		if(count==0)
-			{
-				cout<<num1;
-			}
-			num1++;
+		{
+			cout<<num1;	
+		}		
+		num1++;	
 	}
 	return 0;
 }
