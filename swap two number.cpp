@@ -2,15 +2,15 @@
 using namespace std;
 
 int main() {
-	int num1,num2,temp;
+	int n1,n2,temp;
 	cout<<"Enter any 2 numbers\n";
-	cin>>num1>>num2;
+	cin>>n1>>n2;
 	cout<<"Before swapping\n";
-	cout<<num1<<"  "<<num2;
-	temp=num1;
-	num1=num2;
-	num2=temp;
+	cout<<n1<<"  "<<n2;
+	temp=n1;
+	n1=n2;
+	n2=temp;
 	cout<<"\nAfter swapping\n";
-	cout<<num1<<"  "<<num2;
+	cout<<n1<<"  "<<n2;
 	return 0;
 }
