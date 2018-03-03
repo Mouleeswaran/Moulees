@@ -11,7 +11,7 @@ class PowerofTwo
 		cout<<"Numbwr is zero";
 		}
 		else
-		while(num=!1)
+		while(num!=1)
 		{
 			count=0;
 			if(num%2==0)
