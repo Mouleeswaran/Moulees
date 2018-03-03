@@ -2,15 +2,15 @@
 using namespace std;
 
 int main() {
-	int n,num=1,num1=0,num2,sum=0,i;
+	int num,n=1,n1=0,n2,,i;
 	cout<<"Enter a number\n";
-	cin>>n;
-	for(i=0;i<n;i++)
+	cin>>num;
+	for(i=0;i<num;i++)
 	{
-		cout<<num<<" ";
-		num2=num+num1;
-		num1=num;
-		num=num2;
+		cout<<n<<" ";
+		n2=n+n1;
+		n1=n;
+		n=n2;
 		
 	}
 	
