@@ -10,7 +10,7 @@ int main() {
 	    num1=(num1*10)+(num%10);
 	    num=num/10;
 	}
-	while(num=!0)
+	while(num!=0)
 	{
 	    num=num1%10;
 	    cout<<num<<" ";
