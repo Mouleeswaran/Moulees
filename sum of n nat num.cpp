@@ -7,7 +7,7 @@ int main() {
 	cin>>num;
 	for(int i=1;i<=num;i++)
 	{
-		sum+=i;
+		sum=sum+i;
 	}
 	cout<<sum;
 	return 0;
