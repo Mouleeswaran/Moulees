@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	int num,sum=0;
+	int k,sum=0;
 	cout<<"enter a number\n";
-	cin>>num;
-	for(int i=1;i<=num;i++)
+	cin>>k;
+	for(int i=1;i<=k;i++)
 	{
 		sum=sum+i;
 	}
